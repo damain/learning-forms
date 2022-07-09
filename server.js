@@ -12,6 +12,13 @@ app.get('/', (req, res) => {
     res.send('sup')
 })
 
+app.get('/hello', (req, res) => {
+    res.send("Don't get me I am a POST route")
+})
+app.get('/multiply', (req, res) => {
+    res.send("Don't get me I am a POST route")
+})
+
 app.post('/hello', (req, res) => {
     //print the body that was sent for troubleshooting 
     console.dir(req.body)
