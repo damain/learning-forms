@@ -13,3 +13,7 @@ This starts a server with the following endpoints
 |/|default route returns some text when visited|              
 |/hello|expects to recieve a name and greets you|
 |/multiply|expects to receive a first and second value and multiplies them |
+
+## Your challenge
+- Create a form that sends name to http://localhost:3002/hello
+- Create a form that sends first and second to http://localhost:3002/multiply 
